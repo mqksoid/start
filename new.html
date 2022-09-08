@@ -6,7 +6,47 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		
 		 <style>
-		   aside {
+			html {
+			background-color: #F0E68C;
+			}
+			
+			body {
+			width: 600px;
+			margin: 0 auto;
+			background-color: #808080;
+			padding: 0 20px 20px 20px;
+			border: 5px solid black;
+			}
+			
+			img {
+			display: block;
+			margin: 0 auto;
+			}
+			
+			h3 {
+			margin: 0;
+			padding: 20px 0;
+			text-shadow: 3px 3px 5px black;
+			text-size: 30px;
+			}
+			
+			#math {
+			color: #ADFF2F;
+			}
+			
+			a:hover {
+			color: #DAA520;
+			}
+			
+			.noname {
+			color: #FFFF00
+			}
+			
+			h3 {
+			color: #F08080;
+			}
+			
+			aside {
 			background: #A52A2A;
 			padding: 10px;
 			width: 100px;
@@ -21,7 +61,7 @@
 			}
 		</style>
 	</head>
-	<body bgcolor="#808080" link="#00FFFF" text="#E0FFFF" vlink="#FFC0CB" topmargin="30" leftmargin="20">
+	<body link="#00FFFF" text="#E0FFFF" vlink="#FFC0CB" topmargin="30" leftmargin="20">
 		<header>
 			<h3>Hello, Git</h3>
 		</header>
@@ -36,9 +76,9 @@
 			<button>Отправить</button> <br>
 		</form>
 		<aside>
-			<p>Не грустите</p>
+			<p class="noname">Не грустите</p>
 			<p>Кушайте суп</p>
-			<p>Любите маму</p>
+			<p class="noname">Любите маму</p>
 		</aside>
 		<b>Послушай музыку, отдохни</b> <br>
 		<audio controls loop>
@@ -96,7 +136,7 @@
 			</figure>
 		</article> </p>
 		<hr size="3px" color="#000000">
-		<p>Зарядка телефона</p>
+		<p><h3>Зарядка телефона</h3></p>
 		  <meter value="80" max="100">Высокая</meter>
 		  <meter value="50" max="100" low="30" high="70">Нормальная</meter>
 		  <meter value="10" max="100" low="30" high="70">Низкая</meter>
@@ -107,7 +147,7 @@
 			  \  /
 			   \/
 		</pre>
-		<p>Загрузка приколов</p>
+		<p class="noname">Загрузка приколов</p>
 			<progress max="100" value="33">
 			text
 			</progress>
@@ -115,12 +155,12 @@
 		<ruby>
 			06<rt>сентрябрь</rt>
 		</ruby>
-		<p>C<sub>2</sub>H<sub>5</sub>OH</p>
+		<p class="noname">C<sub>2</sub>H<sub>5</sub>OH</p>
 		<details>
 		   <summary>Кто я такой</summary>
 		   <p>Максончик, 17 лет</p>
 	  </details>
-	  <p>x <sup>2</sup> + y <sup>2</sup> = 0</p>
+	  <p id="math">x <sup>2</sup> + y <sup>2</sup> = 0</p>
 	  <textarea placeholder="Введите 5 символов" maxlength="5"></textarea>
 		<table border="1">
 		  <tr>
